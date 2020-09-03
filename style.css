@@ -5,47 +5,36 @@
     font-size: var(--base-size);
     font-family: sans-serif;
 }
-
 * {
     box-sizing: border-box;
 }
-
 fieldset {
     border: 1px dotted gray;
     margin-bottom: var(--base-size);
     font-variant-caps: all-small-caps;
 }
-
 fieldset label {
     font-variant-caps: normal;
 }
-
 input {
     margin-bottom: calc(var(--base-size) / 2);
 }
-
 button {
-
 }
-
 .grid {
     display: table;
     border: 1px solid grey;
 }
-
 .column-headers {
     display: flex;
 }
-
 .column-headers .cell {
     background: lightskyblue;
     font-weight: bold;
 }
-
 .row {
     display: flex;
 }
-
 .cell {
     height: var(--cell-height);
     width: var(--cell-width);
@@ -57,11 +46,13 @@ button {
     outline: 1px solid grey;
     background: white;
 }
-
 .row:hover .cell {
     background: lightgray;
 }
 
+.cell:hover {
+    background: lightsteelblue !important;
+} 
 .row .cell:hover {
     background: lightsteelblue;
 }
